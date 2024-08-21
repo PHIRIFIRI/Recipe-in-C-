@@ -1,0 +1,16 @@
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.csproj.AssemblyReference.cache
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\IngredientsWindow.baml
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\StepsInputDialog.baml
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\StepsWindow.baml
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\IngredientsWindow.g.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\StepsInputDialog.g.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\StepsWindow.g.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp_MarkupCompile.cache
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.g.resources
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.AssemblyInfoInputs.cache
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.AssemblyInfo.cs
+C:\Users\MMANTSHEPHE\source\repos\RecipeApp\obj\Debug\net6.0-windows\RecipeApp.csproj.CoreCompileInputs.cache

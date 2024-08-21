@@ -1,0 +1,41 @@
+﻿<Window x:Class="RecipeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Recipe App" Height="450" Width="600">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Recipe Name:" FontWeight="Bold"/>
+            <TextBox x:Name="txtRecipeName" Margin="0 5 0 10"/>
+
+            <TextBlock Text="Recipe Number:" FontWeight="Bold"/>
+            <TextBox x:Name="txtRecipeNumber" Margin="0 5 0 10"/>
+
+            <Button Content="Add Ingredients" Click="btnAddIngredients_Click" Margin="0 10"/>
+            <ListBox x:Name="lstIngredients" Margin="0 5 0 10" Width="200">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Quantity}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Content="Add Steps" Click="btnAddSteps_Click" Margin="0 10"/>
+            <ListBox x:Name="lstSteps" Margin="0 5 0 10" Width="200">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" FontWeight="Bold"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Content="Add Recipe" Click="btnAddRecipe_Click"/>
+            <Button Content="Filter Recipes" Click="btnFilterRecipes_Click" Margin="0 10"/>
+
+            <TextBlock Text="Filtered Recipes:" FontWeight="Bold" Margin="0 10 0 5"/>
+            <ListBox x:Name="lstFilteredRecipes" Margin="0 5"/>
+        </StackPanel>
+    </Grid>
+</Window>

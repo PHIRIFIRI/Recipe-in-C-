@@ -1,0 +1,15 @@
+The following program guide the user what do to
+
+
+This program allows you to run the app in the visual studio,and lur app does the following...
+-Our program is able to store unlimited number of recipes
+-Our program allows us to enter the name of each recipe
+-The program allows us to view list of all recipes if recorded by name
+-Program can choose which recipe to display 
+-For each ingredient user can enter number of calories 
+-User can enter the food group in creating a recipe
+-The recipe program can show us the total calories of each recipe
+-The program can notify the user if they exceed 300 in calories
+The program can also allow the user to be able to filter the list of recipes by: entering the name of an ingredient that must be in the recipe, choosing a food group that must be in the recipe,  selecting a maximum number of calories
+
+Thank you

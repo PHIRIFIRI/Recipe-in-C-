@@ -1,0 +1,21 @@
+﻿<Window x:Class="RecipeApp.StepsInputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Step Descriptions" Height="400" Width="400">
+    <Grid Margin="10">
+        <StackPanel>
+            <ItemsControl x:Name="itemsControl" Margin="0 5">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding StepNumber}" FontWeight="Bold"/>
+                            <TextBox Text="{Binding Description}" Height="60"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Button Content="Done" Click="btnDone_Click" HorizontalAlignment="Right"/>
+        </StackPanel>
+    </Grid>
+</Window>
